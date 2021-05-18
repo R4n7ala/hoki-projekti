@@ -1,0 +1,154 @@
+
+body{
+background-color:#0B132B;
+}	
+
+h1, h6, h5{
+font-family: 'Chivo', sans-serif;
+text-transform: uppercase;
+padding: 5px;
+}
+h1, h6 {
+color: #F17105;
+}	
+
+li {
+margin: 5px;
+}	
+div {
+font-family: 'Overpass', sans-serif;
+}
+.col-md-6.col-lg-3.bg-info {
+border-radius: 10px!important;
+background-color: #ADD7F6!important;
+margin: 5px;
+max-width: 280px;
+}	
+.navbar-nav {
+text-align: right;
+}
+nav.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top {
+    background-color: #ADD7F6!important;
+	border-style: solid;
+	border-color: red;
+}
+a.nav-link {
+    color: #0B132B!important;
+}
+
+.flex-container > div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #ADD7F6;
+	margin: 10px;
+	padding: 10px;
+	font-size: 15px;
+	max-width: 950px;
+} 
+.otsaketeksti {
+	background-color: #ADD7F6;
+	color: #0B132B;
+	width: 85%;
+	max-width: 1000px;
+	word-wrap: normal;
+}
+
+	
+.mainosbanneri{
+    background-color: lightgreen;
+    width: 15%;
+	max-width: 200px;
+    height: -webkit-fill-available;
+    padding: 20px;
+    position: fixed;
+    margin: 0px;
+    right: 0px;
+    text-align: center;
+	font-size: xx-large;
+    border-color: red;
+    border-style: solid;
+}
+@media only screen(max-width: 600px) {
+	main, aside width: 100%; 
+}
+footer {
+color:green;	
+}	
+.material-icons.md-18 {
+font-size: 18px;
+    color: red;
+}
+.fa {
+ padding: 20px;
+  font-size: 24px!important;
+  /*width: 30px;*/
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%
+}
+.fa:hover {
+    opacity: 0.9;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+} 
+.fa-instagram {
+  background: #125688;
+  color: white;	
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/*-------Toisen sivun tyylit alkaa------- */
+.toinen-sivu {
+color: lime;
+font-size: 125%;
+}	
+	
+
+/*----------------lomakesivu--------*/
+
+form {
+	background-color: #ADD7F6;
+	color: #0B132B;
+	padding: 25px;
+	margin: 25px;
+	border-radius: 5%;
+	max-width: 500px;
+}
+
+
+
+/* ----------------Tekstien värit----------
+	oranssi #F17105
+	navyblue #0B132B
+	vaaleasininen #ADD7F6 */
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
