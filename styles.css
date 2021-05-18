@@ -35,6 +35,9 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top {
 a.nav-link {
     color: #0B132B!important;
 }
+.container {
+    padding: 15px;
+}
 
 .flex-container > div {
 	display: flex;
