@@ -132,7 +132,7 @@ font-size: 125%;
 }	
 
 /*----- historia sivu----*/
-.kiekonhistoriaa .wikipediastalainattua {
+.kiekonhistoriaa, .wikipediastalainattua {
 color: #ADD7F6;
 }	
 	
