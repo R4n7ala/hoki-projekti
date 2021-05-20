@@ -83,6 +83,9 @@ h6 {
 @media only screen(max-width: 600px) {
 	main, aside width: 100%; 
 }
+.video {
+	position: center;
+}	
 footer {
 color:green;	
 }	
