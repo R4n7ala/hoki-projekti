@@ -58,13 +58,21 @@ a.nav-link {
 	max-width: 1000px;
 	word-wrap: normal;
 }
-p.col-med-12.bg-info {
-    margin-right: 200px;
+.videon-alla {
+margin-right: 250px;
+margin-left: 150px;
+padding: 5px;
+color:#ADD7F6;
 }
 h6 {
     margin-right: 100px;
 }	
-
+.video {
+color:#ADD7F6;
+margin-left: 20px;
+margin-right: 250px;
+padding: 5px;
+}	
 	
 .mainosbanneri{
     background-color: lightgreen;
