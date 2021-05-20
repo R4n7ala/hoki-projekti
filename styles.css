@@ -130,6 +130,11 @@ font-size: 18px;
 color: lime;
 font-size: 125%;
 }	
+
+/*----- historia sivu----*/
+.kiekonhistoriaa .wikipediastalainattua {
+color: #ADD7F6;
+}	
 	
 
 /*----------------lomakesivu--------*/
