@@ -84,7 +84,9 @@ h6 {
 	main, aside width: 100%; 
 }
 .video {
-	position: center;
+	max-inline-size: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }	
 footer {
 color:green;	
