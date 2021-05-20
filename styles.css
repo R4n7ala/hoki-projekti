@@ -44,6 +44,7 @@ a.nav-link {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: flex-start;
 	background-color: #ADD7F6;
 	margin: 10px;
 	padding: 10px;
