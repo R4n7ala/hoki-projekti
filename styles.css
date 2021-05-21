@@ -220,12 +220,21 @@ margin-top: 5px;
 
 .lanketti {
     max-width: 500px;
+	min-width: 500px;
     background-color: #ADD7f6;
     border-radius: 5%;
     margin: 20px;
     padding: 30px;
 }
-
+input {
+width: 45%;
+}	
+#valtuutus {
+width: fit-content;
+}
+#sendnappi {
+width: fit-content;
+}	
 /* ----------------Tekstien värit----------
 	oranssi #F17105
 	navyblue #0B132B
