@@ -220,15 +220,12 @@ margin-top: 5px;
 /*----------------lomakesivu--------*/
 
 form {
-	background-color: #ADD7F6;
-	color: #0B132B;
-	padding: 25px;
-	margin: 25px;
-	border-radius: 5%;
-	max-width: 500px;
+    max-width: 500px;
+    background-color: #ADD7f6;
+    border-radius: 5%;
+    margin: 20px;
+    padding: 30px;
 }
-
-
 
 /* ----------------Tekstien värit----------
 	oranssi #F17105
