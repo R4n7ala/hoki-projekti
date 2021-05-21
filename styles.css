@@ -61,7 +61,7 @@ a.nav-link {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: flex-start;
-	background-color: #ADD7F6;
+	/*background-color: #ADD7F6;*/
 	margin: 15px;
 	padding: 20px;
 	font-size: 15px;
@@ -115,6 +115,8 @@ padding: 5px;
 #videoteksti {
 	color:#ADD7F6;
 }	
+
+	
 footer {
 color:green;
 margin: 15px;
@@ -195,6 +197,24 @@ color: #ADD7F6;
 font-size: 80%;
 margin-top: 5px;
 }	
+
+/*#img-hover { 
+
+   background-image: url(pelaaja-tilasto.png);
+
+    height: 600px;
+
+    width: 434px;
+
+    
+}	
+
+#img-hover:hover {
+
+    background-image: url(pelaaja-selitykset.png);*/
+	
+}
+
 
 
 /*----------------lomakesivu--------*/
