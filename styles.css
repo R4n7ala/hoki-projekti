@@ -15,6 +15,7 @@ color: #F17105;
 }
 h1 {
 text-align:center;
+text-shadow: 0 0 3px #F17105;
 }	
 
 li {
@@ -45,6 +46,7 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top {
 	border-style: solid;
 	border-color: red;
 	margin: 5px 10px;
+	
 }
 a.nav-link {
     color: #0B132B!important;
@@ -127,6 +129,13 @@ color:#ADD7F6;
 font-size: 75%;
 margin: 15px;
 padding: 30px;	
+}
+/*.footer {
+position: fixed;
+left:0;
+bottom:0;
+width: 100%;
+text-align:center;*/
 }	
 .material-icons.md-18 {
 font-size: 15px;
@@ -172,6 +181,29 @@ padding: 15px;
 margin: 15px;
 padding: 20px;
 }	
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(255,0,0,0.8);
+  transition: 0.5s;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #ADD7F6;
+  float:left;
+  padding: 20px;
+  border: 5px solid red;
+}
+
+	
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 12px 22px 0 rgba(255,0,0,0.8);
+}
+
+/* Add some padding inside the card container */
+.playercontainer {
+  padding: 7px 20px;
+} 
 
 /*----- historia sivu----*/
 .kiekonhistoriaa, .wikipediastalainattua {
