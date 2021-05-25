@@ -182,28 +182,42 @@ margin: 15px;
 padding: 20px;
 }	
 .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(255,0,0,0.8);
-  transition: 0.5s;
-  height: 400px;
-  width: 300px;
-  border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border: #3B28CC;
+   border-style:groove;
+   border-radius: 25px;
+   outline: 0;
+   background-color: #ADD7F6;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  align-items:center;
+}
+.positio {
+  color: grey;
+  font-size: 18px;
+}
+.nappi {
+  border:#3B28CC;
+  border-style: groove;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: #0B132B;
   background-color: #ADD7F6;
-  float:left;
-  padding: 20px;
-  border: 5px solid red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition-duration: 0.6s;
+}
+.nappi:hover {
+  opacity: 0.7;
+  background-color: #F17105;
+  color: #0B132B;
+  
 }
 
-	
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 12px 22px 0 rgba(255,0,0,0.8);
-}
-
-/* Add some padding inside the card container */
-.playercontainer {
-  padding: 7px 20px;
-} 
 
 /*----- historia sivu----*/
 .kiekonhistoriaa, .wikipediastalainattua {
