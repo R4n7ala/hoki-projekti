@@ -2,7 +2,8 @@
 body{
 background-color:#0B132B;
 font-family: 'Overpass', sans-serif;
-
+padding-top: 235px;
+padding-right: 150px;
 }	
 
 h1, h6, h5{
@@ -16,7 +17,7 @@ color: #F17105;
 h1 {
 text-align:center;
 text-shadow: 0 0 3px #F17105;
-margin-right: 125px;
+
 }	
 
 li {
@@ -39,6 +40,18 @@ justify-content: center;
 .navbar-nav {
 text-align: right;
 }
+@media (max-width: 768px) {
+	.navbar-collapse {
+		position: absolute;
+		top: 187px;
+		right: 17px;
+		background-color: #ADD7F6;
+	}
+	
+	body.nav-smaller .navbar-collapse {
+		top: 87px;
+	}
+}
 .navbar-toggler-icon {
     background-image: url("puck-1.png")!important;
 }	
@@ -49,12 +62,26 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top {
 	position: fixed;
 	top:0;
 	width:100%;
-	
-	
+	flex-wrap: nowrap;
+	justify-content: flex-start;	
 }
+
+body.nav-smaller nav {
+height: 80px;
+}
+body.nav-smaller nav img {
+height: 80px;
+width:auto;
+}	
 a.nav-link {
     color: #0B132B!important;
+	border-radius: 10px;
 }
+a.nav-link:hover {
+background-color: #F17105;
+color: #ADD7F6;
+border-radius: 10px;
+}	
 .jumbotron{
 	color: #ADD7F6;
     text-align: center;
@@ -141,13 +168,7 @@ font-size: 75%;
 margin: 15px;
 padding: 30px;	
 }
-/*.footer {
-position: fixed;
-left:0;
-bottom:0;
-width: 100%;
-text-align:center;*/
-}	
+
 .material-icons.md-18 {
 font-size: 15px;
     color: #F17105;
@@ -187,7 +208,7 @@ font-size: 15px;
 color: #ADD7F6;
 margin: 25px;
 padding: 15px;
-margin-right: 125px;
+
 }
 #gif {
 margin: 15px;
@@ -236,7 +257,7 @@ padding: 20px;
 color: #ADD7F6;
 padding: 15px;
 margin: 25px;
-margin-right: 125px;
+
 }
 .wikipediastalainattua {
 font-style:italic;
@@ -247,12 +268,12 @@ font-style:italic;
 color: #ADD7F6;
 padding: 15px;
 margin: 25px;
-margin-right: 125px;
+
 }
 .flex-container-tilastot {
 display:flex;
 flex-wrap: wrap;
-margin-right: 125px;
+
 }
 
 figure{
@@ -294,8 +315,7 @@ margin-top: 5px;
     border-radius: 5%;
     margin: 20px;
     padding: 30px;
-	margin-right: 140px;
-}
+}	
 input {
 width: 45%;
 }	
@@ -323,7 +343,7 @@ width: fit-content;
 /* Hide the images by default */
 .myslideshow {
   display: none;
-margin-right: 125px;
+
   
 }
 
@@ -353,7 +373,7 @@ margin-right: 125px;
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  margin-right:300px;
+  
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -408,6 +428,8 @@ margin-right: 125px;
 
 img {
     padding: 10px;
+	width: 100%;
+	height: auto;
 }
 .slide-row {
 width: 80%;
@@ -416,7 +438,7 @@ width: 80%;
 color: #ADD7F6;
 padding: 25px;
 margin: 15px;
-margin-right: 125px;
+
 }	
 .muistiinpanokuva {
 padding: 25px;
@@ -500,23 +522,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
-@media (min-width: 1200px)
-.maincontainer, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1140px;
-}
 
-@media (min-width: 992px)
-.maincontainer, .container-lg, .container-md, .container-sm {
-    max-width: 960px;
-}
-@media (min-width: 768px)
-.maincontainer, .container-md, .container-sm {
-    max-width: 720px;
-}
-@media (min-width: 576px)
-.maincontainer, .container-sm {
-    max-width: 540px;
-}
 .maincontainer, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     width: 100%;
     padding-right: var(--bs-gutter-x,.75rem);
@@ -532,41 +538,42 @@ display: none;
 	display: block;
 }
 }	
-	/* Jos tarvetta
-	
-		<aside id=mainosbanneri	class="mainosbanneri">
-				<p> mainos mainos mainos mainos mainos</p>
-		
-			</aside>
-			
----------------------------------*/
 
 
 
 .sivupalkki {
    list-style-type: none;
   margin: 10px;
+  margin-top: 195px;
   padding: 0;
   width: 125px;
   color: #0B132B;
   background-color: #ADD7F6;
   border: 1px solid #F17105;
+  border-radius: 10px;
   position: fixed;
   right: 0;
+  top: 0;
 }
+
+body.nav-smaller .sivupalkki {
+margin-top: 95px;
+}	
 
 #sivu {
 display: block;
-color: #000;
+color: #0B132B;
 padding: 8px 16px;
 text-decoration: none;
 text-align: center;
 border-bottom: 1px solid #555;
+border-radius: 8px;
 }	
 
 #sivu:hover {
 background-color: #F17105;
 color: #ADD7F6;
+border-radius: 8px;
 }
 #sivu:last-child {
 border-bottom: none;
