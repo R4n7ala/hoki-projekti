@@ -24,7 +24,7 @@
 integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 <!-- Navigation -->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<nav id="nav" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html"><img src="logo-kiekko.png" alt="oranssi kiekko"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -52,7 +52,31 @@ integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yA
 			</ul>	
 		</div>	
 		</div>
-	</nav>		
+	</nav>
+<script>
+window.onscroll = function(e){
+    if(e.target.scrollingElement.scrollTop > 10) {
+         document.getElementById('nav').css({
+               height: '50px'
+         });
+    } else {
+         document.getElementById('nav').css({
+               height: 'initial'
+         });
+    }
+};
+</script>	
+
+<aside class="sivusta">
+<ul class="sivupalkki">
+  <li><a id="sivu" href="#">Tulokset</a></li>
+  <li><a id="sivu" href="#">Uusinnat</a></li>
+  <li><a id="sivu" href="#news">Florida</a></li>
+  <li><a id="sivu" href="#news">Tappara</a></li>
+</ul>
+</aside>
+	
+
 	
 		<h1> Tilastojen ihmeellinen maailma</h1>
 	

@@ -16,6 +16,7 @@ color: #F17105;
 h1 {
 text-align:center;
 text-shadow: 0 0 3px #F17105;
+margin-right: 125px;
 }	
 
 li {
@@ -43,8 +44,8 @@ text-align: right;
 }	
 nav.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top {
     background-color: #ADD7F6!important;
-	border-style: solid;
-	border-color: red;
+	border-style: outset;
+	border-width: thick;
 	margin: 5px 10px;
 	
 }
@@ -97,6 +98,9 @@ margin-right: 250px;
 padding: 5px;
 text-align: center;
 }	
+#oh-canadavideo{
+max-width:100%;
+}	
 
 /*.mainosbanneri{
     background-color: lightgreen;
@@ -122,7 +126,11 @@ text-align: center;
 #videoteksti {
 	color:#ADD7F6;
 }	
-
+#videon-alla {
+color: #ADD7F6;
+padding: 25px;
+margin: 10px;
+}	
 	
 footer {
 color:#ADD7F6;
@@ -176,6 +184,7 @@ font-size: 15px;
 color: #ADD7F6;
 margin: 25px;
 padding: 15px;
+margin-right: 125px;
 }
 #gif {
 margin: 15px;
@@ -224,6 +233,7 @@ padding: 20px;
 color: #ADD7F6;
 padding: 15px;
 margin: 25px;
+margin-right: 125px;
 }
 .wikipediastalainattua {
 font-style:italic;
@@ -234,15 +244,18 @@ font-style:italic;
 color: #ADD7F6;
 padding: 15px;
 margin: 25px;
+margin-right: 125px;
 }
 .flex-container-tilastot {
 display:flex;
 flex-wrap: wrap;
+margin-right: 125px;
 }
 
 figure{
 padding:10px;
 margin: 5px;
+max-width:100%;
 }	
 figcaption {
 color: #ADD7F6;
@@ -272,12 +285,13 @@ margin-top: 5px;
 /*----------------lomakesivu--------*/
 
 .lanketti {
-    max-width: 500px;
-	min-width: 500px;
+    max-width:500px;
+	min-width: 200px;
     background-color: #ADD7f6;
     border-radius: 5%;
     margin: 20px;
     padding: 30px;
+	margin-right: 140px;
 }
 input {
 width: 45%;
@@ -289,6 +303,7 @@ width: fit-content;
 width: fit-content;
 }	
 
+
 /* ------------- Suunnittelusivu ja karuselli --------- */
 
 * {
@@ -299,11 +314,13 @@ width: fit-content;
 .slidecontainer {
   position: relative;
   padding: 20px;
+  
 }
 
 /* Hide the images by default */
 .myslideshow {
   display: none;
+margin-right: 125px;
   
 }
 
@@ -333,6 +350,7 @@ width: fit-content;
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  margin-right:300px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -395,6 +413,7 @@ width: 80%;
 color: #ADD7F6;
 padding: 25px;
 margin: 15px;
+margin-right: 125px;
 }	
 .muistiinpanokuva {
 padding: 25px;
@@ -518,3 +537,33 @@ display: none;
 			</aside>
 			
 ---------------------------------*/
+
+
+
+.sivupalkki {
+   list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  width: 125px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+  position: fixed;
+  right: 0;
+}
+
+#sivu {
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+text-align: center;
+border-bottom: 1px solid #555;
+}	
+
+#sivu:hover {
+background-color: #555;
+color: white;
+}
+#sivu:last-child {
+border-bottom: none;
+}	
