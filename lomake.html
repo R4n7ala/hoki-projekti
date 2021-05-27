@@ -49,6 +49,18 @@
 		</div>
 	</nav>		
 <!-- Navigation ends -->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar navbar-expand-md navbar-light bg-light sticky-top").style.top = "0";
+  } else {
+    document.getElementById("navbar navbar-expand-md navbar-light bg-light sticky-top").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 
 <aside class="sivusta">
 <ul class="sivupalkki">
