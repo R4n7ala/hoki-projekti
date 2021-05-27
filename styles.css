@@ -545,8 +545,9 @@ display: none;
   margin: 10px;
   padding: 0;
   width: 125px;
-  background-color: #f1f1f1;
-  border: 1px solid #555;
+  color: #0B132B;
+  background-color: #ADD7F6;
+  border: 1px solid #F17105;
   position: fixed;
   right: 0;
 }
@@ -561,8 +562,8 @@ border-bottom: 1px solid #555;
 }	
 
 #sivu:hover {
-background-color: #555;
-color: white;
+background-color: #F17105;
+color: #ADD7F6;
 }
 #sivu:last-child {
 border-bottom: none;
