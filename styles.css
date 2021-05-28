@@ -459,7 +459,7 @@ text-align: center;
 
 /* Make the image to responsive */
 .studyhard {
-  width: 100%;
+  max-width:900px ;
   height: auto;
 }
 
