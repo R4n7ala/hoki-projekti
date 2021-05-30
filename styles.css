@@ -336,8 +336,6 @@ width: fit-content;
 /* Hide the images by default */
 .myslideshow {
   display: none;
-
-  
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -559,11 +557,11 @@ border-bottom: 1px solid #555;
 border-radius: 8px;
 }	
 
-#sivu:hover {
+.sivu:hover {
 background-color: #F17105;
 color: #ADD7F6;
 border-radius: 8px;
 }
-#sivu:last-child {
+.sivu:last-child {
 border-bottom: none;
 }	
